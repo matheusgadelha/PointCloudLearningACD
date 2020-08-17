@@ -1,4 +1,3 @@
-
 # Self-supervision for Point Clouds using Approximate Convex Decompositions 
 
 This repository contains code for the paper *Label-Efficient Learning on Point Clouds using Approximate Convex Decompositions*, published at ECCV 2020. 

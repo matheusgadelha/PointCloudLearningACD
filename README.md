@@ -48,8 +48,6 @@ The models are stored in the experiment output folder, under `checkpoints` sub-f
 
 ## Pretrain on ACD and test on ModelNet
 
-For all these experiments, the "default" paths are set relative to the project root at `/srv/data2/arunirc/Research/Pointnet_Pointnet2_pytorch` on the server Renyi. 
-
 **Pretraining on ACD:**
 
 The following example command trains a PointNet++ network on the ACD task. The `seed` is an integer that serves as an identifier for multiple runs of the same experiment. Random rotations around the "up" or Z axis is done as data augmentation during training(`--rotation_z`). Only the best performing model based on the **validation ACD loss** is stored under the experiment output folder, under `checkpoints` sub-folder. Tensorboard logs and console output as txt file are saved under sub-folder `logs`.

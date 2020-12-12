@@ -4,6 +4,19 @@ This repository contains code for the paper *Label-Efficient Learning on Point C
 
 Thanks to yanx27 for an excellent PyTorch PointNet++ implementation [Pointnet_Pointnet2_pytorch](https://github.com/yanx27/Pointnet_Pointnet2_pytorch); our model implementation is based off that codebase.
 
+If you find this codebase useful, please consider citing:
+
+```
+@inProceedings{selfsupacd,
+  title={Label-Efficient Learning on Point Clouds using Approximate Convex Decompositions},
+  author = {Matheus Gadelha and Aruni RoyChowdhury and Gopal Sharma and Evangelos Kalogerakis and Liangliang Cao and Erik Learned-Miller and Rui Wang and Subhransu Maji},
+  booktitle={European Conference on Computer Vision (ECCV)},
+  year={2020}
+}
+
+```
+
+
 ## Environment setup
 
 CUDA setup:
